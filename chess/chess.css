@@ -1,0 +1,49 @@
+.man{
+    border: 1px solid black;
+    height: 100px;
+    width: 800px;
+    display: flex;
+
+}
+
+.a{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:50px ;
+}
+.b{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:50px ;
+}
+
+#b1:hover{
+    transform: translateY(200px) translateX(100px);
+}
+#a1:hover{
+    transform: translateY(200px) translateX(-100px);
+}
+#p2:hover{
+    transform: translateY(100px);
+}
+
+#p1:hover{
+    transform: translateY(-100px);
+}
+
+#a2:hover{
+    transform: translateY(-200px) translateX(100px);
+}
+
+#b2:hover{
+    transform: translateY(-200px) translateX(-100px);
+}
